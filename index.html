@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.css"
+        integrity="sha512-s6khMl5GDS1HbQ5/SwL1wzMayPwHXPjKoBN5kHUTDqKEPkkGyEZWKyH2lQ3YO2q3dxueG3rE0NHjRawMHd2b6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favIcon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- meuCSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Enxame</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="menu">
+                    <!-- logo -->
+                    <a href="#home" class="logo">
+                        <i class='bx bxs-invader'></i>
+                        <span>Enxame</span>
+                    </a>
+                    <!-- menu -->
+                    <ul class="navbar open">
+                        <!-- menuHamburguer -->
+                        <a class="btnMenu">
+                            <i class='bx bx-menu'></i>
+                        </a>
+                        <li>
+                            <a href="#home">home</a>
+                        </li>
+                        <li>
+                            <a href="#about">about</a>
+                        </li>
+                        <!-- dropdown -->
+                        <li>
+                            <a>specialties<i class='bx bx-chevron-down'></i></a>
+                            <ul class="sub">
+                                <li><a href="#emphasis">emphasis</a></li>
+                                <li><a href="#products">products</a></li>
+                                <li><a href="#services">services</a></li>
+                                <li><a href="#domain">domain</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#localization">localization</a>
+                        </li>
+                        <li>
+                            <a href="#contact">contact</a>
+                        </li>
+                        <button class="butn"><a href="login.html">login</a></button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- home -->
+            <section id="home">
+                <div class="home-container">
+                    <video src="video/aliens.mp4" id="video" muted></video>
+                    <div class="home-inner">
+                        <h1>Alien<span>&reg;</span> Covenant</h1>
+                        <h2>Chaos Anomaly</h2>
+                        <a href="privacity.html" class="btnDefault">Read more</a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- about -->
+            <section id="about">
+                <div class="about-container about-inner swiper" data-aos="fade-up">
+                    <h2>Know more about us</h2>
+                    <div class="swiper-wrapper about-base">
+                        <!-- card1 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil.PNG" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Portuguesa</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Developer</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card2 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil2.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Benzedor</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Criador de Conteudo</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card3 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil3.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Castiel</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Secretário</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card4 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil4.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Clérigo</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Desconhecido</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card5 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil5.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Almirei</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Segurança</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card6 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil6.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Kayn</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Developer</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card7 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil7.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Rhistofer</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Maker</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- card8 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil8.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>Judas</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>CEO</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- card9 -->
+                        <div class="card swiper-slide">
+                            <ul>
+                                <li>
+                                    <img src="img/perfil9.png" alt="perfil1">
+                                </li>
+                                <li class="card-titulo">
+                                    <h4>samantha</h4>
+                                </li>
+                                <li class="card-stars">
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bxs-star"></i>
+                                    <i class="bx bx-star"></i>
+                                    <i class="bx bx-star"></i>
+                                </li>
+                                <li class="card-cargo">
+                                    <h4>Entidade</h4>
+                                </li>
+                                <li class="social-media">
+                                    <i class="bx bxl-facebook-circle"></i>
+                                    <i class="bx bxl-instagram"></i>
+                                    <i class="bx bxl-tiktok"></i>
+                                    <i class="bx bxl-linkedin-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- controls -->
+                    <div class="swiper-button-next myNext"></div>
+                    <div class="swiper-button-prev myPref"></div>
+                    <div class="swiper-button-pagination myPage"></div>
+                </div>
+            </section>
+            <!-- emphasis -->
+            <section id="emphasis">
+                <div class="swiper mySwiper" data-aos="fade-up">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/carousel1.png" alt="carousel1" class="img-fit">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/carousel2.png" alt="carousel2" class="img-fit">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/carousel3.png" alt="carousel3" class="img-fit">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/carousel4.png" alt="carousel4" class="img-fit">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/carousel5.png" alt="carousel5" class="img-fit">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </section>
+            <!-- products -->
+            <section id="products">
+                <h2>Products prices and plans</h2>
+                <div class="products-container" data-aos="fade-up">
+                    <!-- card1 -->
+                    <ul class="cardProd">
+                        <li class="price">U$ 1.06</li>
+                        <li class="title">stantard</li>
+                        <li>
+                            <h5>10GB of space in dik</h5>
+                        </li>
+                        <li>
+                            <h5>10G sub domain</h5>
+                        </li>
+                        <li>
+                            <h5>15 Emails accounts</h5>
+                        </li>
+                        <li>
+                            <h5>c-painel</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="btnDefault">Select</a>
+                        </li>
+                    </ul>
+                    <!-- card2 -->
+                    <ul class="cardProd">
+                        <li class="price">U$ 2.15</li>
+                        <li class="title">dedicated</li>
+                        <li>
+                            <h5>12GB of space in dik</h5>
+                        </li>
+                        <li>
+                            <h5>12 sub domain</h5>
+                        </li>
+                        <li>
+                            <h5>20 Emails accounts</h5>
+                        </li>
+                        <li>
+                            <h5>c-painel</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="btnDefault">Select</a>
+                        </li>
+                    </ul>
+                    <!-- card3 -->
+                    <ul class="cardProd recomended">
+                        <li class="price">U$ 4.06</li>
+                        <li class="title">black</li>
+                        <li>
+                            <h5>20GB of space in dik</h5>
+                        </li>
+                        <li>
+                            <h5>25 sub domain</h5>
+                        </li>
+                        <li>
+                            <h5>30 Emails accounts</h5>
+                        </li>
+                        <li>
+                            <h5>c-painel</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="btnDefault">Select</a>
+                        </li>
+                    </ul>
+                    <!-- card4 -->
+                    <ul class="cardProd">
+                        <li class="price">U$ 10.06</li>
+                        <li class="title">avanced</li>
+                        <li>
+                            <h5>25GB of space in dik</h5>
+                        </li>
+                        <li>
+                            <h5>50 sub domain</h5>
+                        </li>
+                        <li>
+                            <h5>100 Emails accounts</h5>
+                        </li>
+                        <li>
+                            <h5>c-painel</h5>
+                        </li>
+                        <li>
+                            <a href="#" class="btnDefault">Select</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- services -->
+            <section id="services">
+                <div class="services-container" data-aos="fade-up">
+                    <h2>The worst services today</h2>
+                    <div class="services-inner">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th>Services</th>
+                                    <th>Description</th>
+                                    <th>$Price</th>
+                                    <th>Options</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Stalker</td>
+                                    <td>Stalker all people</td>
+                                    <td>US$ 60.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Attacks</td>
+                                    <td>Personal Attacks</td>
+                                    <td>US$ 150.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Dissimulation</td>
+                                    <td>Fake News</td>
+                                    <td>US$ 90.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Assistence</td>
+                                    <td>present day</td>
+                                    <td>US$ 120.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Stalker</td>
+                                    <td>Stalker all people</td>
+                                    <td>US$ 60.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>erase</td>
+                                    <td>erase problens</td>
+                                    <td>US$ 80.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>fix</td>
+                                    <td>fix error</td>
+                                    <td>US$ 130.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>tilt</td>
+                                    <td>machine tilt</td>
+                                    <td>US$ 140.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>global</td>
+                                    <td>global help</td>
+                                    <td>US$ 90.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                                <tr>
+                                    <td>red line</td>
+                                    <td>death line</td>
+                                    <td>US$ 110.00</td>
+                                    <td><a href="#" class="btnDefault">+</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <!-- domain -->
+            <section id="domain">
+                <h2>Check if the domain is avaliable for use</h2>
+                <div class="domain-container" data-aos="fade-up">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Enter your domain:">
+                        </li>
+                        <li>
+                            <a href="#" class="btnDefault">Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- localization -->
+            <section id="localization">
+                <h2>Try to find us on the map</h2>
+                <div class="localization-container" data-aos="fade-up">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.439372922705!2d-46.69327387372355!3d-23.62443106391418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50bd429b622d%3A0x765782eb2710bbb2!2sBrooklin%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1693941550158!5m2!1spt-BR!2sbr"
+                        width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <!-- contact -->
+            <section id="contact">
+                <h2>Send a message and maybe we'll an answer one day</h2>
+                <div class="contact-container" data-aos="fade-up">
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <ul class="contact-inner">
+                            <li>
+                                <input type="text" name="name" placeholder="Nome:" autocomplete="off" required>
+                            </li>
+                            <li>
+                                <input type="email" name="email" placeholder="Email:" autocomplete="off" required>
+                            </li>
+                            <li>
+                                <textarea name="message" cols="30" rows="10" autocomplete="off"
+                                    placeholder="Send your message:" required></textarea>
+                            </li>
+                            <li class="formBtn">
+                                <input type="submit" value="Submit" class="btnDefault">
+                                <input type="reset" value="Cancel" class="btnDefault">
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span>I want to receive junk in my email account</span>
+                            </li>
+                        </ul>
+                        <!-- key acess -->
+                        <input type="hidden" name="accessKey" value="875070f7-81be-4ded-a20b-8c8335fe7221">
+                        <!-- redirect page -->
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/thanks.html">
+                        <!-- Optional -->
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-inner">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#emphasis">Emphasis</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                    <ul class="map-site">
+                        <li><a href="#domain">Domain</a></li>
+                        <li><a href="#localization">Localization</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#login">Login</a></li>
+                    </ul>
+                    <a href="#home" class="logo">
+                        <i class='bx bxs-invader'></i>
+                        <span>Enxame</span>
+                    </a>
+                    <p>
+                        &reg; Copyright all rights reserved 2012
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Swiper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js"
+        integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- MyScript -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
